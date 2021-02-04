@@ -19,6 +19,6 @@ void hello() {
     ds << "abcdefghijklmnopqrstuvwxyz";
     ds.close();
     std::cout << Poco::DigestEngine::digestToHex(md5.digest()) << std::endl;
-    return 0;
+    return;
 
 }
